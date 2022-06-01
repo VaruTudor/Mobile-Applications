@@ -1,0 +1,6 @@
+{"_id":"5jiukIovSHq5rHhA","description":"A timid magzine photo manager who lives life vicariously through..","producer":"Ben Stiller","title":"The Secret Life of Walter Mitty","userId":"vI1GMkzBza5i82zj","awardNominated":true}
+{"_id":"RCdHQoGzBtGUgkjg","description":"Nick Naylor is a charismatic spin-doctor for Big Tobacco who'll fight to..","producer":"Jason Reitman","title":"Thank You for Smoking","userId":"vI1GMkzBza5i82zj","awardNominated":true}
+{"_id":"hPOTpXaZ1iCoth7j","description":"In 1965 Los Angeles, a widowed mother and her two daughters add a..","producer":"Mike Flanagan","title":"Ouija: Origin of Evil","userId":"vI1GMkzBza5i82zj","awardNominated":true}
+{"_id":"hPOTpXbZ1iCoth7j","description":"Ray Breslin is the world's foremost authority on structural security..","producer":"John Herzfeld","title":"Escape Plan","userId":"vI1GMkzBza5i82zj","awardNominated":true}
+{"_id":"hPOTpXcZ1iCoth7j","description":"When timid bank clerk Stanley Ipkiss discovers a magical mask containing..","producer":"Chuck Russell","title":"The Mask","userId":"vI1GMkzBza5i82zj","awardNominated":true}
+

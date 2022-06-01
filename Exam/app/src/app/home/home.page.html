@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Task Manager
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="this.senders.length > 0" style="text-align: center; margin-top: 5%;">
+    <strong>Senders</strong>
+  </div>
+
+  <ion-list *ngIf="this.senders.length > 0" style="margin-top: 2.5%">
+    <ion-item *ngFor="let sender of this.senders" (click)="getMessages(sender)">
+      {{sender}}
+    </ion-item>
+  </ion-list>
+
+  <div *ngIf="this.senders.length > 0" style="text-align: center; margin-top: 5%;">
+    <strong>Messages</strong>
+  </div>
+
+  <ion-list *ngIf="this.messages.length > 0" style="margin-top: 2.5%">
+    <ion-item *ngFor="let message of this.messages"
+              (click)="toggleMessage(message)"
+    >
+      {{message.text}} -- {{message.sender}} -- {{isToggled(message)? 'toggled' : 'not toggled' }}
+    </ion-item>
+  </ion-list>
+
+  <div *ngIf="this.senders.length > 0" style="text-align: center; margin-top: 5%;">
+    <button [disabled]="toggledMessages.length === 0" (click)="deleteToggledMessages()">Delete Messages</button>
+  </div>
+
+</ion-content>
